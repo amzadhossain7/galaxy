@@ -1,0 +1,277 @@
+* { margin: 0%;
+    padding: 0%; 
+}
+header {
+     display: flex;
+    justify-content: space-between;
+    margin: 50px 120px;
+}
+header nav ul { 
+    list-style: none; 
+}
+header nav ul li a {
+     text-decoration: none;
+     text-transform: capitalize;
+     font-size: 18px;
+     color: rgb(151, 153, 155);
+     margin-right: 50px;
+}
+.banner {
+     position: relative;
+     margin-bottom: 80px; 
+}
+.banner img {
+     height: 800px; 
+     width: 100%; 
+}
+.banner h1 {
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    transform: translate(50%, 50%); 
+    font-weight: 400; 
+    font-size: 50px; 
+    color: white; 
+}
+.banner h3 { 
+    position: absolute; 
+    top: 40%; 
+    right: 50%; 
+    transform: translate(50%, 50%); 
+    font-weight: 1; 
+    font-size: 28px; 
+    color: white; 
+}
+.banner button { 
+    position: absolute; 
+    top: 54%; 
+    right: 50%; 
+    transform: translate(50%, 50%); 
+    color: white;
+     border: 2px solid white; 
+     background-color: rgb(251, 110, 82); 
+     padding: 23px 71px; 
+     border-radius: 5px; 
+     text-transform: capitalize; 
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+.web { 
+    position: relative; 
+    text-align: center; 
+    margin-left: 300px; 
+}
+.web h2 { 
+    text-transform: capitalize; 
+    margin-top: 15px; 
+    font-weight: 400; 
+}
+.web p { 
+    padding: 0px; 
+    margin-top: 15px; 
+}
+.html img { 
+    position: absolute; 
+    top: 5%;
+    right: 50%; 
+    transform: translate(50%, 50%); 
+}
+.photo { 
+    position: relative; 
+    text-align: center; 
+    margin-right: 300px; 
+}
+.photo h2 { 
+    text-transform: capitalize; 
+    margin-top: 15px; 
+    font-weight: 400; 
+}
+.photo p { 
+    margin-top: 15px; 
+}
+.camera img { 
+    position: absolute; 
+    top: 5%; 
+    right: 50%; 
+    transform: translate(50%, 50%); 
+}
+.graphic { 
+    position: relative; 
+    text-align: center; 
+    margin-right: 50px; 
+    margin-left: 50px; 
+}
+.graphic h2 { 
+    text-transform: capitalize; 
+    margin-top: 15px; 
+    font-weight: 400; 
+}
+.graphic p { 
+    margin-top: 15px; 
+}
+.pen { 
+    position: absolute; 
+    top: 0%; 
+    right: 50%; 
+    transform: translate(50%, 50%); 
+}
+.latter { 
+    text-align: center; 
+    margin-top: 85px; 
+    margin-bottom: 85px; 
+}
+.latter p { 
+    font-weight: 400; 
+    color: rgb(251, 110, 82); 
+    font-size: 35px; 
+}
+.project {
+    margin: auto auto 85px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    text-align: center;
+    text-transform: capitalize;}
+.project div img { 
+    height: 300px; 
+}
+.project div h1 {
+    margin-top: 15px;
+}
+.project div h4 {
+    margin-top: 15px;
+    font-weight: 100;
+    color: #97999b;
+}
+.image1 { 
+    width: 32%; 
+}
+.image2 { 
+    width: 32%;
+}
+.image3 { 
+    width: 32%; 
+}
+.image1 img {
+    width: 100%;
+}
+.image2 img {
+    width: 100%;
+}
+.image3 img {
+    width: 100%;
+}
+.blog{
+
+text-align: center;
+
+background-color: #f9f9f9;
+}
+.blog h2{
+
+/* margin-top: 25px; */
+
+/* margin-bottom: 100px; */
+
+padding: 100px;
+
+font-weight: 300;
+}
+.blog_main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.blog .blog_main div h1{
+
+text-align: left;
+
+margin: 20px 55px 20px 57px;
+
+font-weight: 200;
+
+color: #fb6e52;
+}
+.blog .blog_main div h4{
+
+text-align: left;
+
+margin: 20px 68px 100px 55px;
+
+font-weight: 200;
+}
+.blog .blog_main div img{
+
+height: 600px;
+}
+.image4 img{
+    width: 85%;
+}
+.image5 img{
+    width: 85%;
+}
+
+.footer{
+
+display: flex;
+
+justify-content: space-between;
+
+height: 100px;
+
+width: 100%;
+
+background: #292c34;
+}
+
+.footer_main{
+
+display: flex;
+
+width: 50%;
+}
+.footer_main img{
+
+margin: 25px 45px 25px 190px;
+}
+.footer_main h4{
+    text-transform: capitalize;
+    margin-top: 41px;
+    color: #797c82;
+}
+
+.icon {
+
+width: 50%;
+}
+
+.icon  ul{
+
+display: flex;
+
+justify-content: center;
+
+list-style: none;
+
+margin-top: 42px;
+
+margin-left: 350px;
+}
+.icon ul li{
+
+font-size: 16px;
+
+margin-right: 60px;
+
+font-weight: 400;
+}
+.icon ul li a{
+
+text-decoration: none;
+
+color: white;
+}
